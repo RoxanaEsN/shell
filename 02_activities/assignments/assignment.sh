@@ -42,6 +42,10 @@ cp ./data/raw/user_log_{1..50}.log ./data/processed/user_logs cp ./data/raw/even
 rm /user_ipaddr_{1..20} ./data/raw/*
 
 # 8. Create a file named ./data/inventory.txt that lists all the files in the subfolders of ./data/processed
+touch ~/data/inventory.txt 
+echo "server_log_{1..50}" > ~/inventory.txt  
+nano /./data/inventory.txt
+"user_log_{1..50}" "event_log_{1..50}"
 
 
 
